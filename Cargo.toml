@@ -1,0 +1,14 @@
+[package]
+name = "asciidork"
+version = "0.1.0"
+edition = "2021"
+description = "just me squatting the crate name"
+license = "MIT"
+
+[lib]
+name = "asciidork"
+path = "src/lib.rs"
+
+[[bin]]
+name = "asciidork"
+path = "src/bin.rs"
